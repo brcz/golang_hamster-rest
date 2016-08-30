@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E442D9481D75739F00824996 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E442D93D1D75710400824996 = {
 			isa = PBXGroup;
 			children = (
+				E442D9481D75739F00824996 /* src */,
 			);
 			sourceTree = "<group>";
 		};
@@ -18,11 +23,12 @@
 /* Begin PBXLegacyTarget section */
 		E442D9421D75710400824996 /* hamster-rest */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
+			buildArgumentsString = "run $(ACTION)";
 			buildConfigurationList = E442D9451D75710400824996 /* Build configuration list for PBXLegacyTarget "hamster-rest" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/go;
+			buildToolPath = /usr/local/go/bin/go;
+			buildWorkingDirectory = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest/src";
 			dependencies = (
 			);
 			name = "hamster-rest";
@@ -140,6 +146,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest/src";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -150,6 +157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest/src";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -175,6 +183,7 @@
 				E442D9471D75710400824996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
