@@ -23,7 +23,7 @@
 /* Begin PBXLegacyTarget section */
 		E442D9421D75710400824996 /* hamster-rest */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "run $(ACTION)";
+			buildArgumentsString = "build $(ACTION)";
 			buildConfigurationList = E442D9451D75710400824996 /* Build configuration list for PBXLegacyTarget "hamster-rest" */;
 			buildPhases = (
 			);
