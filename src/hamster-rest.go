@@ -19,7 +19,7 @@ var cameraLogin string
 var cameraPass string
 
 func init() {
-    //bind msg flag to src_string variable
+    //bind  flag to  variables
     flag.StringVar(&cameraLogin, "u", "", "user")
     flag.StringVar(&cameraPass, "p", "", "password")
 }
@@ -46,7 +46,7 @@ func main () {
         Delete("/:id", deleteVideoRecord)
         
     videoEndpoint.Use(authMid)
-    //videoEndpoint.Use(rateTokenBucketMid)
+    videoEndpoint.Use(rateTokenBucketMid)
     videoEndpoint.Register(proxyModel())
     rv.Handle("/video", videoEndpoint)
     
