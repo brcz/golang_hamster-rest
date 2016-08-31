@@ -5,8 +5,6 @@ package main
 	"net/http"
          "time"
          "log"
-         "fmt"
-         //"reflect"
          "errors"
          "io/ioutil"
          "encoding/base64"
@@ -96,7 +94,7 @@ func fetchVideos(settings SettingsStruct) ([]VideoRecord, error) {
     //response, err :=netClient.Get(url)
     
     req, err := http.NewRequest("GET", url, nil)
-    req.Header.Add("Authorization","Basic "+basicAuth("admin","888888"))
+    req.Header.Add("Authorization","Basic "+basicAuth(cameraLogin, cameraPass))
     
     response, err := netClient.Do(req)
     
@@ -109,7 +107,7 @@ func fetchVideos(settings SettingsStruct) ([]VideoRecord, error) {
     defer response.Body.Close()
     
     bodyBuffer, _ := ioutil.ReadAll(response.Body)
-    fmt.Printf("\n\n%s", bodyBuffer)
+    //fmt.Printf("\n\n%s", bodyBuffer)
     //fmt.Println("\n\njs=",bodyBuffer)
     
     vm := otto.New()
@@ -148,7 +146,7 @@ func basicAuth(username, password string) string {
 }
 
 func redirectPolicyFunc(req *http.Request, via []*http.Request) error{
-    req.Header.Add("Authorization","Basic "+basicAuth("admin","888888"))
+    req.Header.Add("Authorization","Basic "+basicAuth(cameraLogin, cameraPass))
     return nil
 }
 

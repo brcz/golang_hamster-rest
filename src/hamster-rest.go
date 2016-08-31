@@ -4,6 +4,7 @@ import (
         "fmt"
         "log"
         "net/http"
+        "flag"
         )
 
 
@@ -14,11 +15,22 @@ import (
 var CameraSettings SettingsStruct
 var Videos []VideoRecord
 
+var cameraLogin string
+var cameraPass string
+
+func init() {
+    //bind msg flag to src_string variable
+    flag.StringVar(&cameraLogin, "u", "", "user")
+    flag.StringVar(&cameraPass, "p", "", "password")
+}
+
 
 func main () {
     var err error
 
     fmt.Println("server init")
+    flag.Parse()
+    
     CameraSettings = initSettings()
     //fmt.Println("settings applied: ",CameraSettings)
     Videos, err = fetchVideos(CameraSettings)
@@ -33,7 +45,8 @@ func main () {
         Get("/:id", getVideoRecord).
         Delete("/:id", deleteVideoRecord)
         
-    //videoEndpoint.Use(authMid)
+    videoEndpoint.Use(authMid)
+    //videoEndpoint.Use(rateTokenBucketMid)
     videoEndpoint.Register(proxyModel())
     rv.Handle("/video", videoEndpoint)
     
