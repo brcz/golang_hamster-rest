@@ -146,7 +146,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest/src";
+				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -157,7 +157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest/src";
+				GOPATH = "/Users/kyevdokimov/vm_shared/_golang_xcode/hamster-rest";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";

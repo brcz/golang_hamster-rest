@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0386C24D15396ED692FF05828BD09BB0F61A6821",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B9C1EE21C8587B25AE1E2AB1338FE4E023D30F8C" : 0,
+    "BCAB1E9B6220FBFF0C5B3BA1FE085863C036C93C" : 0,
+    "C3403D19648B34A4EE14902FD8B53FB61734159D" : 0,
+    "CC0D92C34646F40E9E5BF9DBD681844422187CB2" : 0,
+    "0386C24D15396ED692FF05828BD09BB0F61A6821" : 0,
+    "83C343E2CFE517BE93F99485392AA55F5E590076" : 0,
+    "62AA44CA5450D2C456407284A31F6A925A3C92E4" : 0,
+    "360732CADA099EC7DFFE0DAF1B3264903E9F7A43" : 0,
+    "4E25F03013E3A2E99E786A115934572180BBE6D7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A2CB852-7A2B-4808-AB4D-2A0895DDF12E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B9C1EE21C8587B25AE1E2AB1338FE4E023D30F8C" : "hamster-rest\/src\/github.com\/mattn\/go-colorable\/",
+    "BCAB1E9B6220FBFF0C5B3BA1FE085863C036C93C" : "hamster-rest\/src\/github.com\/fatih\/color\/",
+    "C3403D19648B34A4EE14902FD8B53FB61734159D" : "hamster-rest\/src\/github.com\/abiosoft\/river\/",
+    "CC0D92C34646F40E9E5BF9DBD681844422187CB2" : "hamster-rest\/src\/gopkg.in\/sourcemap.v1\/",
+    "0386C24D15396ED692FF05828BD09BB0F61A6821" : "hamster-rest\/",
+    "83C343E2CFE517BE93F99485392AA55F5E590076" : "hamster-rest\/src\/github.com\/dustin\/go-humanize\/",
+    "62AA44CA5450D2C456407284A31F6A925A3C92E4" : "hamster-rest\/src\/github.com\/mattn\/go-isatty\/",
+    "360732CADA099EC7DFFE0DAF1B3264903E9F7A43" : "hamster-rest\/src\/github.com\/julienschmidt\/httprouter\/",
+    "4E25F03013E3A2E99E786A115934572180BBE6D7" : "hamster-rest\/src\/github.com\/robertkrimen\/otto\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hamster-rest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "hamster-rest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlab.brcz.mk.ua:2226\/golang\/hamster-rest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0386C24D15396ED692FF05828BD09BB0F61A6821"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/julienschmidt\/httprouter",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "360732CADA099EC7DFFE0DAF1B3264903E9F7A43"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robertkrimen\/otto",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E25F03013E3A2E99E786A115934572180BBE6D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattn\/go-isatty",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62AA44CA5450D2C456407284A31F6A925A3C92E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dustin\/go-humanize",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83C343E2CFE517BE93F99485392AA55F5E590076"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattn\/go-colorable",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9C1EE21C8587B25AE1E2AB1338FE4E023D30F8C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fatih\/color",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCAB1E9B6220FBFF0C5B3BA1FE085863C036C93C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/abiosoft\/river",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3403D19648B34A4EE14902FD8B53FB61734159D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gopkg.in\/sourcemap.v1",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC0D92C34646F40E9E5BF9DBD681844422187CB2"
+    }
+  ]
+}

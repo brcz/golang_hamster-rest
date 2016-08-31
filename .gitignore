@@ -1,1 +1,4 @@
 src/src
+pkg/*
+src/github.com/*
+src/gopkg.in/*
